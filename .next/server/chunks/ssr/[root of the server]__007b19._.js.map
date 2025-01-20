@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///home/steiks/Workstation/nodejs/elearning-fyr-lois/src/pages/_app.tsx"],"sourcesContent":["import '../styles/globals.css'\nimport type { AppProps } from 'next/app'\n\nexport default function App({ Component, pageProps }: AppProps) {\n  return <Component {...pageProps} />\n} "],"names":[],"mappings":";;;;;;AAGe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAY;IAC5D,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC"}},
+    {"offset": {"line": 70, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 76, "column": 0}, "map": {"version":3,"sources":["file:///home/steiks/Workstation/nodejs/elearning-fyr-lois/src/pages/index.tsx"],"sourcesContent":["import { GetServerSideProps } from \"next\";\nimport Link from \"next/link\";\n\n// export const getServerSideProps: GetServerSideProps<Props> = async () => {\n//     const userRepository = new UserRepositoryImpl();\n//     const userService = new UserService(userRepository);\n//     const users = await userService.getAllUsers();\n  \n//     return {\n//       props: {\n//         users,\n//       },\n//     };\n//   };\n\nexport default function HomePage(){\n    return <h1>Hello World</h1>\n}"],"names":[],"mappings":";;;;;AAee,SAAS;IACpB,qBAAO,qKAAC;kBAAG;;;;;;AACf"}},
+    {"offset": {"line": 90, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

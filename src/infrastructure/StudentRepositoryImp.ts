@@ -13,6 +13,7 @@ export class StudentRepositoryImpl implements StudentRepository {
   }
 
   async getAll(): Promise<Student[]> {
+    
     return this.students;
   }
 }

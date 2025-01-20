@@ -21,7 +21,7 @@ export class StudentService implements StudentUseCase {
     return await this.studentRepository.findById(id);
   }
 
-  async getAllUsers(): Promise<StudentDTO[]> {
+  async getAllStudent(): Promise<StudentDTO[]> {
     return await this.studentRepository.getAll();
   }
 }
